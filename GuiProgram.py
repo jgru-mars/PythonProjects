@@ -101,7 +101,7 @@ txtDinoDesc.grid(row = 3, column = 0)
 
 # creates the first image used in the tkinter window.
 lblImage = tk.Label(wn)
-lblImage.grid(row=3, column=10, rowspan=5, sticky=tk.E + tk.W + tk.N)
+lblImage.grid(row=3, column=10)
 imgCharacter = ImageTk.PhotoImage((Image.open("img/weirdDino.jfif")))
 lblImage['image'] = imgCharacter
 lblImage.image = imgCharacter
